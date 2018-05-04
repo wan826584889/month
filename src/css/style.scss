@@ -1,0 +1,28 @@
+@import '_mixin';
+@import '_config';
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    display: flex;
+    line-height: pxTorem(30px);
+    a {
+        color: #8d8d8d;
+        flex: 1;
+        font-size: pxTorem(18px)!important;
+    }
+    h1 {
+        flex: 9.5;
+        font-weight: 100;
+        font-size: pxTorem(18px);
+        text-align: center;
+    }
+}
