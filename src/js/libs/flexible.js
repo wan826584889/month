@@ -48,7 +48,6 @@
         e.rem = d.rem = w;
         var v = parseFloat(c.style.fontSize),
             t = parseFloat(window.getComputedStyle(c).getPropertyValue("font-size"));
-        console.log("flexible.refreshRem: fontSize && finalFontSize => ", v, t);
         if (v !== t) {
             c.style.fontSize = v * (v / t) + "px";
             console.log("flexible.refreshRem.fixed: fontSize  => ", c.style.fontSize)
