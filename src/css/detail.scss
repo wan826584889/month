@@ -1,0 +1,84 @@
+@import '_mixin';
+@import '_config';
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-size: pxTorem(16px);
+}
+
+a {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    line-height: pxTorem(40px);
+    background: #fff;
+    a {
+        flex: 1;
+    }
+    ul {
+        flex: 7.5;
+        text-align: center;
+        li {
+            float: left;
+            font-size: pxTorem(16px);
+            line-height: pxTorem(30px);
+            padding: 0 pxTorem(10px);
+        }
+        li:first-child {
+            margin-left: 40%;
+        }
+        .active {
+            background: #7f7f7f;
+            color: #fff;
+        }
+    }
+}
+
+.banner {
+    img {
+        width: 100%;
+    }
+    h1 {
+        display: flex;
+        font-weight: 100;
+        text-align: center;
+        background: #f9f9f9;
+        padding: 0.5rem 0;
+        dl {
+            flex: 1;
+            font-size: pxTorem(16px);
+        }
+    }
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    position: sticky;
+    bottom: -1px;
+    height: pxTorem(40px);
+    line-height: pxTorem(40px);
+    background: #fff;
+    a {
+        flex: 1;
+        font-size: pxTorem(20px)!important;
+    }
+    span {
+        flex: 3.5;
+        font-size: pxTorem(16px)!important;
+        color: red;
+    }
+    span:last-child {
+        background: #cccccc;
+        color: #fff;
+    }
+}

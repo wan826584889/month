@@ -53,4 +53,7 @@ function Cli(data) {
         $('.banner').html(html)
         $(this).addClass('active').siblings().removeClass('active')
     })
+    $('body').on('click', 'dl', function() {
+        window.location.href = '../../page/detail.html'
+    })
 }

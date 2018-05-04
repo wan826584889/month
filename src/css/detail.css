@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*超过几行显示省略号*/
+/*背景*/
+/* 滚动 */
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px;
+}
+
+/*字体大小*/
+/*灰色字体颜色*/
+/*白色字体*/
+/*黑色字体*/
+/*按钮灰色边框*/
+/*蓝色边框颜色*/
+/*蓝色字体颜色*/
+/*group 底部边框颜色*/
+/*header背景*/
+/*搜索框border颜色*/
+/*banner buttle*/
+/*orange line颜色*/
+/*line bottom颜色*/
+/* 书背景*/
+/* 书边框颜色 */
+/*书的阴影*/
+/*绿色标签颜色*/
+/*限免tag背景*/
+/*按钮背景颜色*/
+/*按钮border颜色*/
+/*标签背景*/
+/*标签背景色*/
+/*详情界面*/
+/* 阅读界面 */
+/*阅读界面标题*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-size: 0.42667rem;
+}
+
+a {
+  text-decoration: none;
+  color: #8d8d8d;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  line-height: 1.06667rem;
+  background: #fff;
+}
+
+header a {
+  flex: 1;
+}
+
+header ul {
+  flex: 7.5;
+  text-align: center;
+}
+
+header ul li {
+  float: left;
+  font-size: 0.42667rem;
+  line-height: 0.8rem;
+  padding: 0 0.26667rem;
+}
+
+header ul li:first-child {
+  margin-left: 40%;
+}
+
+header ul .active {
+  background: #7f7f7f;
+  color: #fff;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner h1 {
+  display: flex;
+  font-weight: 100;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 0.5rem 0;
+}
+
+.banner h1 dl {
+  flex: 1;
+  font-size: 0.42667rem;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  position: sticky;
+  bottom: -1px;
+  height: 1.06667rem;
+  line-height: 1.06667rem;
+  background: #fff;
+}
+
+footer a {
+  flex: 1;
+  font-size: 0.53333rem !important;
+}
+
+footer span {
+  flex: 3.5;
+  font-size: 0.42667rem !important;
+  color: red;
+}
+
+footer span:last-child {
+  background: #cccccc;
+  color: #fff;
+}
